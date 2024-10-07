@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package model;
 
 import java.util.Date;
@@ -9,17 +5,20 @@ import java.util.Date;
 /**
  *
  *@author USER
+ *
  */
+
 public class Person {
+
     private String firstName;
     private String lastName;
     private long ssn;
     private int age;
     private double height;
-    
+
     private Address workAddress;
     private Address homeAddress;
-    
+
     private Date createdOn;
 
     public Person() {
@@ -27,7 +26,7 @@ public class Person {
         this.workAddress = new Address();
         this.homeAddress = new Address();
     }
-    
+
     public String getFirstName() {
         return firstName;
     }
@@ -68,8 +67,6 @@ public class Person {
         this.height = height;
     }
 
-    
-
     public Address getWorkAddress() {
         return workAddress;
     }
@@ -85,14 +82,13 @@ public class Person {
     public void setHomeAddress(Address homeAddress) {
         this.homeAddress = homeAddress;
     }
-    
+
     public Date getCreatedOn() {
         return createdOn;
     }
-    
+
     @Override
     public String toString() {
         return firstName;
     }
-    
 }
