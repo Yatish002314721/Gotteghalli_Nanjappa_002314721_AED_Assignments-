@@ -20,7 +20,8 @@ public class EmployerProfile {
         
     }
          public boolean isMatch(String id){
-        if(name.equals(id)) return true;             //String is an object and can do equal matach
+        //String is an object and can do equal match
+        if(name.equals(id)) return true;             
         return false;
     }
     
