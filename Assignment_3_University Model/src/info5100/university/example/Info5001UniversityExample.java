@@ -31,17 +31,17 @@ public class Info5001UniversityExample {
         CourseSchedule courseschedule = department.newCourseSchedule(semester);
 
         //create 1 core, and at least 5 electives
-        Course course = department.addCourse("App Eng", "5100", 4, semester);
+        Course course = department.addCourse("AppEng", "5100", 4, semester);
         department.addCoreCourse(course);
-        Course course2 = department.addCourse("Web Design", "5101", 4, semester);
+        Course course2 = department.addCourse("WebDesign", "5101", 4, semester);
         department.addElectiveCourse(course2);
-        Course course3 = department.addCourse("Data Structure", "5102", 4, semester);
+        Course course3 = department.addCourse("DataStructure", "5102", 4, semester);
         department.addElectiveCourse(course3);
         Course course4 = department.addCourse("Database", "5103", 4, semester);
         department.addElectiveCourse(course4);
-        Course course5 = department.addCourse("Info Security", "5104", 4, semester);
+        Course course5 = department.addCourse("Python", "5104", 4, semester);
         department.addElectiveCourse(course5);
-        Course course6 = department.addCourse("Info System", "5105", 4, semester);
+        Course course6 = department.addCourse("Data Science", "5105", 4, semester);
         department.addElectiveCourse(course6);
 
         //add 2 faculty for each course created above
