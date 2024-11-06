@@ -53,7 +53,7 @@ public class Info5001UniversityExample {
 
         //register student
         //create  10 students do for fall 2020
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i <= 10; i++) {
             Person person = department.getPersonDirectory().newPerson("011230" + i);
             StudentProfile student = department.getStudentDirectory().newStudentProfile(person);
             student.newCourseLoad(semester);
