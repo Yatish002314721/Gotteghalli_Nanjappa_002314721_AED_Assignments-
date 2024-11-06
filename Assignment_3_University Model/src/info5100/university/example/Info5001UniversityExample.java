@@ -174,7 +174,7 @@ public class Info5001UniversityExample {
                     exit = true;
                     break;
                 default:
-                    System.out.println("Invalid option. Please choose again.");
+                    System.out.println("Invalid option. Please choose again");
             }
         }
         scanner.close();
