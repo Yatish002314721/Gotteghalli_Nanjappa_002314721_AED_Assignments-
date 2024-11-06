@@ -20,9 +20,7 @@ import java.util.Scanner;
  */
 public class Info5001UniversityExample {
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean exit = false;
